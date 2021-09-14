@@ -94,6 +94,7 @@ IMPL_FUNC(void,doDoubleFree) {
 
 
 IMPL_FUNC(void,doNullpointerDereference) {
+    //null-pointer dereference error
     char * volatile p = (char *)nullptr;
     p[42] = 1;  // Boom!
 }

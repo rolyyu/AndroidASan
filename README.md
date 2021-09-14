@@ -10,8 +10,5 @@ Enabling the sanitizer is a matter of:
 Additionally, here we set up an additional build type in gradle, so all relevant operations are
 only performed for the new "sanitize" build type, and won't affect either the debug or the release build.
 
-General info on address sanitizer:
-https://android-developers.googleblog.com/2017/08/android-bug-swatting-with-sanitizers.html
-
-More information:
+More information: https://rolyyu.github.io/2021/09/13/Android-NDK-%E4%BD%BF%E7%94%A8-Address-Sanitizer/
 
